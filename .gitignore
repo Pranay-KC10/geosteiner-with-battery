@@ -1,0 +1,55 @@
+﻿# Build dirs
+.libs/
+.deps/
+.libs*/
+autom4te.cache/
+lp_solve_2.3/*.o
+lp_solve_2.3/*.a
+
+# Objects & libs
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Autotools/generated
+config.h
+config.h.in
+config.log
+config.status
+configure
+Makefile
+Makefile.in
+install-sh
+stamp-config-h
+aclocal.m4
+
+# Binaries produced by build
+bb
+efst
+rfst
+ufst
+smt
+hgmst
+dumpfst
+plotfst
+prunefst
+fst2graph
+docgen
+demo1
+demo2
+demo3
+demo4
+
+# PDFs/PS and temp
+*.pdf
+*.ps
+*.tmp
+*.swp
+__pycache__/
+*.pyc
+.vscode/

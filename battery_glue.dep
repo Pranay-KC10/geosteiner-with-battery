@@ -1,0 +1,1 @@
+battery_glue.o battery_glue.lo battery_glue.dep : battery_glue.c
